@@ -1,4 +1,6 @@
 # Measurement and release workflow
+Implementation update2026-09-19: `import-metrics.cjs` validates actual observations and writes the private live ledger, preserving the existing twelve-row public seed. `report.cjs` prefers that private ledger when present. `iterate.cjs` exposes baseline-driven funnel hypotheses with explicit sample floors; no winner or causal inference. No real Sloane social posts or attributed results exist yet. See docs/CONTENT-ENGINE.md for schema and limitations.
+
 
 Shopify is the source for sessions, product/checkout funnel, orders and revenue. Metricool is the source for platform reach/retention when provided. Keep platform attribution and Shopify attribution separate; use matching date ranges, currency and attribution windows before comparing.
 
@@ -12,4 +14,4 @@ Diagnosis: weak early retention suggests hook/framing; good retention but few qu
 
 Launch one controlled comparison at a time with the same audience, placement, offer and spend conditions. Define budget cap and review window before paid launch. Do not automatically scale from an isolated conversion or a text hook score. Reconcile refunds and contribution before approving higher spend.
 
-Metricool account found: Brizi/personal @christianfbravo; no Sloane destination confirmed. social/calendar.json stays local, undated, unpublished and unapproved. Confirm destination and media first. Approval of a draft is separate from spending approval.
+Metricool account found: existing unrelated accounts; explicitly DO_NOT_USE_FOR_SLOANE. social/calendar.json stays local, undated, unpublished and unapproved. Connect and verify new Sloane destinations first. Approval of a draft is separate from spending approval.

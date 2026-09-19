@@ -1,5 +1,17 @@
 # Acceptance results — 2026-09-18
 
+## Content engine verification — 2026-09-19
+
+- 19 node:test cases pass: previous metric math/UTM checks plus provider denial, identifier safety, local receipts, ledger joins, blocked destinations, illegal state edges, hash-bound QA, action/revision-specific approvals, fresh Shopify pricing preflight, caption/layout limits, metadata checks, sample-aware diagnosis and actual observation import.
+- Complete local ingestion → four FFmpeg-normalized clips →15-second Remotion → final delivery export → QA run succeeded: SL003-v9002,1080x1920,30fps,H.264,yuv420p,MP4,intentionally no audio. Full decode passes; hook/CTA/timing preflight passes;21 frames sampled including transition boundaries. Contact sheet visually inspected; full human fidelity/rights/platform review remains pending.
+- First smoke revision9001 was correctly held for yuvj420p. Added explicit final range/pixel-format conversion; revision9002 passes. Both outputs retained locally for audit, ignored by Git.
+- Running engine.cjs review SL003-v9002 with unfilled human review correctly fails: Manual review absent or stale. No QA_PASSED/publish-ready claim.
+- Twelve manual work orders created for SL001/SL003/SL004. They are AWAITING_MANUAL_GENERATION, not submitted API jobs. No generation credits spent.
+- Fresh Shopify reads confirm original product pricing and unchanged theme roles. Existing PR remains draft. Wrong unrelated brand social destinations are blocked; no connector write to social or Shopify performed.
+- No new AI video, social post, scheduler receipt, ad or measured sales result fabricated. Local smoke footage is made from existing Shopify stills, not generated lifestyle footage.
+
+## Prior storefront and video acceptance
+
 Theme: Sloane — Mobile Fashion Redesign, unpublished Shopify theme 162403156153.
 - Production webpack build: pass.
 - 14 changed Liquid/JSON files: Theme Check pass with cached Shopify schemas.

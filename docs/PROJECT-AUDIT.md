@@ -1,4 +1,18 @@
-# Sloane project audit — 2026-09-18
+# Sloane project audit — current update 2026-09-19
+
+Current implementation supersedes the historical baseline below. See CONTENT-ENGINE.md for the full dependency map and commands.
+
+- Fresh Shopify reads: original product active/four variants54.99USD; editorial theme162384838841 MAIN and redesign162403156153 UNPUBLISHED. No theme changes in this phase.
+- Branch/PR#1 preserved; equivalent local/API-created histories reconciled without file changes.
+- Six concepts extended, three complete generation packs, twelve original ledger rows preserved.
+- Manual/local provider interface, paid fail-closed entry, clip ingestion/Remotion/FFmpeg/QA, state gates, account denylist, real measurement importer and iteration hypotheses implemented.
+- Full15-second local pipeline smoke test passes technical QA; human review remains pending. Original composition/runtime retained. No new AI lifestyle footage claimed.
+- AI Video Studio Kit audit completed previously; selected guidance retained. Open Higgsfield source reviewed and deferred; no installer executed. See OPEN-HIGGSFIELD-AUDIT.md.
+- Metricool unrelated brand[private brand ID] / Instagram and TikTok [private account] explicitly DO_NOT_USE_FOR_SLOANE. Correct accounts are an external gate. See SOCIAL-CONNECTION.md.
+- Official Higgsfield entitlement requires website verification. Account/billing details remain private; no trial activated or credits spent.
+- Public posting, scheduling, ads, product-price and theme-publication approvals remain required. No actual campaign metrics or winner exists.
+
+## Historical initial baseline (preserved; pending items below may now be completed)
 
 ## COMPLETED
 - Shopify product renamed The Sloane Cropped Jacket; live product read confirms XS/S/M/L at $54.99 with native inventory and original images.
@@ -6,7 +20,7 @@
 - GitHub project shopify-foundation-theme checked out on codex/sloane-storefront.
 - New Liquid homepage, product, gallery, variant radios, sticky native Add to Cart, native cart, fit, policies and FAQ implemented. Production webpack build passes. All 14 modified theme files pass Theme Check using cached Shopify schemas.
 - Existing OpenMontage/Remotion project located at Documents/Codex/2026-09-07/https-github-com-calesthio-openmontage-lets. Preserve and reuse runtime after source inspection.
-- Shopify, GitHub, Higgsfield and Metricool tools available. Metricool read confirms only Brizi/personal social accounts; destination clarification pending.
+- Shopify, GitHub, Higgsfield and Metricool tools available. Metricool read confirms only existing unrelated social accounts; destination clarification pending.
 
 ## PARTIALLY COMPLETED
 - Unpublished draft theme 162403156153 created; repository theme upload and browser acceptance tests pending.

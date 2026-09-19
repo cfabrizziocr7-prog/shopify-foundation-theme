@@ -1,4 +1,6 @@
 # Sloane shot workflow
+Implementation: `automation/engine.cjs` now prepares manual work orders, ingests approved local clips, normalizes, renders and checks exports, stopping at QA_PENDING. See docs/CONTENT-ENGINE.md. Plans remain in sloane-concepts.json; per-edit execution states remain with ignored outputs. The three initial packages are in creative/packages/. The connected unrelated brand social destinations are explicitly prohibited; see social/private/destinations.json.
+
 1. Choose one concept and record its ID, hypothesis and version in creative/sloane-concepts.json.
 2. Attach actual front, back and detail images. Record reference filenames; do not treat textual description as an identity lock.
 3. Generate a still first when changing location/model. Check collar, zip, pockets/panels, cuffs, texture, gray tone and cropped proportions against originals.
