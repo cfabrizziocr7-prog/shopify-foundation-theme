@@ -1,0 +1,111 @@
+{% render 'sloane-styles' %}
+{% assign selected = product.selected_or_first_available_variant %}
+{% assign form_id = 'SloaneProduct-' | append: section.id %}
+{% assign fallback_image = product.featured_image %}
+{% if product.handle == 'ladies-chic-gray-tweed-crop-jacket' and product.images.size > 2 %}{% assign fallback_image = product.images[2] %}{% endif %}
+{% assign primary_image = selected.featured_image | default: section.settings.primary_image | default: fallback_image %}
+<sloane-product class="sl-product sl-wrap" data-product-url="{{ product.url }}">
+  <nav class="sl-breadcrumb" aria-label="{{ 'sloane.product.breadcrumb' | t }}"><a href="{{ routes.root_url }}">{{ 'sloane.nav.home' | t }}</a><span aria-hidden="true"> / </span>{{ product.title | escape }}</nav>
+  <div class="sl-product__grid">
+    <div class="sl-gallery">
+      <div class="sl-gallery__main">{% if primary_image != blank %}{{ primary_image | image_url: width: 1500 | image_tag: widths: '400, 600, 900, 1200, 1500', sizes: '(min-width: 750px) 52vw, 100vw', loading: 'eager', fetchpriority: 'high', alt: product.title, class: 'sl-gallery__active' }}{% endif %}</div>
+      <div class="sl-gallery__thumbs" role="group" aria-label="{{ 'sloane.product.gallery' | t }}">
+        {% for media in product.media %}
+          {% if media.media_type == 'image' %}
+            <a href="{{ media | image_url: width: 1500 }}" data-gallery-image data-alt="{{ media.alt | default: product.title | escape }}" aria-label="{{ 'sloane.product.photo' | t: number: forloop.index }}" {% if media.preview_image.id == primary_image.id %}aria-current="true"{% endif %}>{{ media | image_url: width: 160 | image_tag: widths: '80, 160', sizes: '72px', loading: 'lazy', alt: '' }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p class="sl-gallery__hint">{{ 'sloane.product.gallery_hint' | t }}</p>
+      {% for media in product.media %}{% unless media.media_type == 'image' %}<div class="sl-gallery__extra">{{ media | media_tag: image_size: '900x', controls: true }}</div>{% endunless %}{% endfor %}
+    </div>
+    <div class="sl-product__info">
+      <p class="sl-kicker">{{ section.settings.eyebrow | escape }}</p>
+      <h1>{{ product.title | escape }}</h1>
+      <div class="sl-product__price" aria-live="polite"><span data-price>{{ selected.price | money }}</span><del data-compare {% unless selected.compare_at_price > selected.price %}hidden{% endunless %}>{{ selected.compare_at_price | money }}</del></div>
+      {% if product.handle == 'ladies-chic-gray-tweed-crop-jacket' %}<p class="sl-product__intro">{{ section.settings.intro | escape }}</p>{% endif %}
+      {% form 'product', product, id: form_id %}
+        {{ form.errors | default_errors }}
+        <div class="sl-options__heading"><span>{{ 'sloane.product.choose' | t }}</span><a class="sl-link" href="#sloane-fit">{{ 'sloane.product.size_guide' | t }}</a></div>
+        <fieldset class="sl-options"><legend class="sl-sr-only">{{ 'sloane.product.choose' | t }}</legend>
+          {% for variant in product.variants %}
+            <label class="sl-option{% unless variant.available %} sl-option--unavailable{% endunless %}">
+              <input type="radio" name="id" value="{{ variant.id }}" data-variant data-price="{{ variant.price | money | escape }}" data-compare="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price | money | escape }}{% endif %}" data-title="{{ variant.title | escape }}" data-available="{{ variant.available }}" data-min="{{ variant.quantity_rule.min | default: 1 }}" data-step="{{ variant.quantity_rule.increment | default: 1 }}" data-max="{{ variant.quantity_rule.max }}" {% if variant.featured_image %}data-image="{{ variant.featured_image | image_url: width: 1500 }}"{% endif %} {% if selected.id == variant.id %}checked{% endif %}>
+              <span>{{ variant.title | escape }}{% unless variant.available %}<small>{{ 'sloane.product.sold_out' | t }}</small>{% endunless %}</span>
+            </label>
+          {% endfor %}
+        </fieldset>
+        <div class="sl-quantity"><label for="Quantity-{{ section.id }}">{{ 'sloane.product.quantity' | t }}</label><input id="Quantity-{{ section.id }}" name="quantity" type="number" min="{{ selected.quantity_rule.min | default: 1 }}" step="{{ selected.quantity_rule.increment | default: 1 }}" {% if selected.quantity_rule.max %}max="{{ selected.quantity_rule.max }}"{% endif %} value="{{ selected.quantity_rule.min | default: 1 }}" inputmode="numeric"></div>
+        <button class="sl-button sl-product__add" type="submit" name="add" data-add data-ready="{{ 'sloane.product.add' | t }}" data-sold="{{ 'sloane.product.sold_out' | t }}" {% unless selected.available %}disabled{% endunless %}>{% if selected.available %}{{ 'sloane.product.add' | t }}{% else %}{{ 'sloane.product.sold_out' | t }}{% endif %}</button>
+        {% if section.settings.show_dynamic_checkout %}<div class="sl-payment">{{ form | payment_button }}</div>{% endif %}
+      {% endform %}
+      <p class="sl-product__reassurance">{{ 'sloane.product.secure' | t }}</p>
+      <div class="sl-product__delivery"><span aria-hidden="true">↗</span><p>{% if product.handle == 'ladies-chic-gray-tweed-crop-jacket' %}{{ section.settings.delivery_note | escape }}{% endif %} <a href="#sloane-shipping">{{ 'sloane.product.delivery_details' | t }}</a></p></div>
+      <details><summary>{{ 'sloane.product.description' | t }}</summary><div class="sl-answer sl-richtext">{{ product.description }}</div></details>
+      <details id="sloane-fit" open><summary>{{ 'sloane.product.fit' | t }}</summary><div class="sl-answer">{% if product.handle == 'ladies-chic-gray-tweed-crop-jacket' %}{{ section.settings.fit_text }}{% else %}<p>{{ 'sloane.product.generic_fit' | t }}</p>{% endif %}</div></details>
+      <div aria-live="polite" class="sl-sr-only" data-variant-status></div>
+    </div>
+  </div>
+  <div class="sl-sticky" data-sticky hidden><div><span class="sl-sticky__name">{{ product.title | escape }}</span><span data-sticky-variant>{{ selected.title | escape }}</span> · <span data-sticky-price>{{ selected.price | money }}</span></div><button form="{{ form_id }}" type="submit" name="add" class="sl-button" data-add data-ready="{{ 'sloane.product.add' | t }}" data-sold="{{ 'sloane.product.sold_out' | t }}" {% unless selected.available %}disabled{% endunless %}>{% if selected.available %}{{ 'sloane.product.add' | t }}{% else %}{{ 'sloane.product.sold_out' | t }}{% endif %}</button></div>
+</sloane-product>
+<script type="application/ld+json">{{ product | structured_data }}</script>
+{% stylesheet %}
+  .sl-product{display:block;padding-block:24px 70px}.sl-breadcrumb{font-size:10px;color:var(--sl-muted);margin-bottom:26px;display:flex;gap:10px;flex-wrap:wrap}.sl-breadcrumb a{text-decoration:none}.sl-product__grid{display:grid;grid-template-columns:1.15fr 1fr;gap:7vw;align-items:start}.sl-gallery{position:sticky;top:24px;min-width:0}.sl-gallery__main{background:#eeece6;aspect-ratio:1/1}.sl-gallery__active{width:100%;height:100%!important;object-fit:contain;mix-blend-mode:multiply;padding:20px}.sl-gallery__thumbs{display:flex;gap:9px;overflow:auto;padding:12px 1px}.sl-gallery__thumbs a{flex:0 0 64px;border:1px solid transparent;opacity:.7}.sl-gallery__thumbs a[aria-current=true]{border-color:var(--sl-ink);opacity:1}.sl-gallery__thumbs img{width:64px;height:72px;object-fit:contain;background:white}.sl-gallery__hint{font-size:10px;color:var(--sl-muted);margin:0}.sl-gallery__extra{margin-top:20px}.sl-gallery__extra video,.sl-gallery__extra iframe{max-width:100%}.sl-product__info{padding-top:12px}.sl-product__info h1{font-size:clamp(35px,3.5vw,52px);max-width:450px;margin-bottom:20px}.sl-product__price{display:flex;gap:14px;font-size:18px;margin-bottom:22px}.sl-product__price del{font-size:14px;align-self:center;color:var(--sl-muted)}.sl-product__intro{font-size:14px;color:var(--sl-muted);line-height:1.8;margin-bottom:28px;max-width:400px}.sl-options__heading{display:flex;justify-content:space-between;gap:20px;font-size:12px;margin-bottom:12px}.sl-options{display:flex;gap:8px;flex-wrap:wrap;border:0;padding:0;margin:0 0 20px}.sl-option{position:relative;flex:1 1 75px}.sl-option input{position:absolute;opacity:0;width:1px;height:1px}.sl-option span{display:flex;min-height:48px;flex-direction:column;align-items:center;justify-content:center;padding:10px 8px;border:1px solid var(--sl-line);font-size:11px;cursor:pointer}.sl-option input:checked+span{background:var(--sl-ink);color:white;border-color:var(--sl-ink)}.sl-option input:focus-visible+span{outline:2px solid var(--sl-accent);outline-offset:3px}.sl-option--unavailable span{background:repeating-linear-gradient(135deg,transparent,transparent 5px,#ddd5 5px,#ddd5 6px)}.sl-option small{font-size:9px}.sl-quantity{display:flex;align-items:center;justify-content:space-between;font-size:12px;margin-bottom:20px}.sl-quantity input{width:70px;min-height:44px;border:1px solid var(--sl-line);padding:8px;background:transparent}.sl-product__add{width:100%}.sl-payment{margin-top:10px}.sl-product__reassurance{font-size:10px;color:var(--sl-muted);text-align:center;margin:12px 0 24px}.sl-product__delivery{display:flex;gap:12px;font-size:12px;margin-bottom:20px}.sl-product__delivery p{margin:0}.sl-product__delivery a{display:block}.sl-sticky{position:fixed;bottom:0;left:0;right:0;z-index:30;background:var(--sl-paper);border-top:1px solid var(--sl-line);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px max(5vw,20px) calc(12px + env(safe-area-inset-bottom));box-shadow:0 -8px 30px #00000008;font-size:11px}.sl-sticky__name{display:block;font-size:12px;font-weight:600}.sl-sticky .sl-button{min-width:180px}.sl-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:749px){.sl-product{padding-top:18px;padding-bottom:45px}.sl-product__grid{grid-template-columns:1fr;gap:25px}.sl-gallery{position:static}.sl-breadcrumb{font-size:9px;margin-bottom:18px}.sl-gallery__main{margin-inline:-20px}.sl-gallery__active{padding:15px 28px}.sl-product__info{padding-top:0}.sl-product__info h1{font-size:38px}.sl-sticky{padding:10px 16px calc(10px + env(safe-area-inset-bottom))}.sl-sticky__name{display:none}.sl-sticky .sl-button{min-width:155px;padding:12px 16px}.sl-gallery__thumbs a{flex-basis:55px}.sl-gallery__thumbs img{width:55px;height:60px}}
+{% endstylesheet %}
+{% javascript %}
+  if (!customElements.get('sloane-product')) {
+    customElements.define('sloane-product', class extends HTMLElement {
+      connectedCallback() {
+        this.controller = new AbortController();
+        this.addEventListener('change', event => {
+          if (!event.target.matches('[data-variant]')) return;
+          const option = event.target;
+          const quantity = this.querySelector('[name="quantity"]');
+          quantity.min = option.dataset.min; quantity.step = option.dataset.step;
+          if (option.dataset.max) quantity.max = option.dataset.max; else quantity.removeAttribute('max');
+          quantity.value = option.dataset.min;
+          this.querySelector('[data-price]').textContent = option.dataset.price;
+          const compare = this.querySelector('[data-compare]');
+          compare.textContent = option.dataset.compare;
+          compare.hidden = !option.dataset.compare;
+          this.querySelectorAll('[data-add]').forEach(button => {
+            button.disabled = option.dataset.available !== 'true';
+            button.textContent = button.disabled ? button.dataset.sold : button.dataset.ready;
+          });
+          this.querySelector('[data-sticky-price]').textContent = option.dataset.price;
+          this.querySelector('[data-sticky-variant]').textContent = option.dataset.title;
+          this.querySelector('[data-variant-status]').textContent = option.dataset.title + ', ' + option.dataset.price;
+          if (option.dataset.image) this.showImage(option.dataset.image, option.dataset.title);
+          const url = new URL(location.href);
+          url.searchParams.set('variant', option.value);
+          history.replaceState({}, '', url);
+        }, { signal: this.controller.signal });
+        this.addEventListener('click', event => {
+          const link = event.target.closest('[data-gallery-image]');
+          if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
+          this.showImage(link.href, link.dataset.alt);
+          this.querySelectorAll('[data-gallery-image]').forEach(item => item.removeAttribute('aria-current'));
+          link.setAttribute('aria-current', 'true');
+        }, { signal: this.controller.signal });
+        const primaryButton = this.querySelector('.sl-product__add');
+        this.observer = new IntersectionObserver(entries => {
+          const entry = entries[0];
+          this.querySelector('[data-sticky]').hidden = entry.isIntersecting || entry.boundingClientRect.top > 0;
+        });
+        this.observer.observe(primaryButton);
+      }
+      showImage(url, alt) {
+        const image = this.querySelector('.sl-gallery__active');
+        if (!image) return;
+        image.removeAttribute('srcset');
+        image.src = url;
+        image.alt = alt;
+      }
+      disconnectedCallback() { this.controller?.abort(); this.observer?.disconnect(); }
+    });
+  }
+{% endjavascript %}
+{% schema %}
+{"name":"Sloane product","settings":[{"type":"image_picker","id":"primary_image","label":"Primary gallery image"},{"type":"text","id":"eyebrow","label":"Eyebrow","default":"The considered wardrobe"},{"type":"textarea","id":"intro","label":"Sloane introduction","default":"Your everyday outfit, pulled together. A cropped gray layer with a textured wool-look finish, generous collar, and silver zip."},{"type":"richtext","id":"fit_text","label":"Sloane fit guidance","default":"<p>Available in XS, S, M, and L. The product listing notes that this style follows Asian sizing and can run 1–2 sizes smaller than typical U.S. sizing.</p><p>If you are between sizes or prefer a relaxed fit, size up. The listed jacket length is approximately 50 cm. Contact us before ordering if you need garment measurements.</p>"},{"type":"text","id":"delivery_note","label":"Delivery note","default":"U.S. delivery is estimated around 8 days after processing, according to the product listing."},{"type":"checkbox","id":"show_dynamic_checkout","label":"Show accelerated checkout","default":true}]}
+{% endschema %}

@@ -1,0 +1,11 @@
+{
+  "creative_id": "SL001",
+  "shots": [
+    {"shot_id":"S01","source":"C:/path/to/SL001-S01.mp4","start":0,"provenance":{"provider":"higgsfield_manual","model":"record_actual_model","job_id":null,"rights_reference":"record_source_and_usage_rights","actual_cost_usd":null}},
+    {"shot_id":"S02","source":"C:/path/to/SL001-S02.mp4","start":0,"provenance":{"provider":"higgsfield_manual","model":"record_actual_model","job_id":null,"rights_reference":"record_source_and_usage_rights","actual_cost_usd":null}},
+    {"shot_id":"S03","source":"C:/path/to/SL001-S03.mp4","start":0,"provenance":{"provider":"higgsfield_manual","model":"record_actual_model","job_id":null,"rights_reference":"record_source_and_usage_rights","actual_cost_usd":null}},
+    {"shot_id":"S04","source":"C:/path/to/SL001-S04.mp4","start":0,"provenance":{"provider":"higgsfield_manual","model":"record_actual_model","job_id":null,"rights_reference":"record_source_and_usage_rights","actual_cost_usd":null}}
+  ],
+  "price": null,
+  "product_snapshot": null
+}

@@ -1,0 +1,974 @@
+[
+  {
+    "id": "SL001",
+    "status": "draft",
+    "angle": "outfit transformation",
+    "hook": "Your jeans need one finishing layer.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether outfit transformation improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Your jeans need one finishing layer. Add the Sloane Cropped Jacket. Gray texture, a silver zip, and a cropped cut. Keep the rest simple. Find your fit on the product page.",
+    "caption": "Your jeans need one finishing layer.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Adult model in white tee and high-waisted blue denim, neutral apartment wall. Mid-thigh framing, front-facing, no jacket yet.",
+        "shot_id": "S01",
+        "camera": "Locked camera; model settles into a still pose. Keep matching pose and light for next shot.",
+        "generation_seconds": 5,
+        "usable_seconds": 3,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Adult model in white tee and high-waisted blue denim, neutral apartment wall. Mid-thigh framing, front-facing, no jacket yet.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Adult model in white tee and high-waisted blue denim, neutral apartment wall. Mid-thigh framing, front-facing, no jacket yet. Locked camera; model settles into a still pose. Keep matching pose and light for next shot.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Same adult model, tee, denim, room and pose wearing the exact gray reference jacket; cropped hem clearly visible.",
+        "shot_id": "S02",
+        "camera": "Hard cut reveal from previous shot, never morph clothing. One small quarter turn; locked camera.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same adult model, tee, denim, room and pose wearing the exact gray reference jacket; cropped hem clearly visible.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same adult model, tee, denim, room and pose wearing the exact gray reference jacket; cropped hem clearly visible. Hard cut reveal from previous shot, never morph clothing. One small quarter turn; locked camera.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "detail",
+        "visual": "Same jacket on same model; close view of reference-matched collar, central silver zip and stitched panels.",
+        "shot_id": "S03",
+        "camera": "Slow 5cm push in; zipper remains closed at the same height, hands outside crop.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same jacket on same model; close view of reference-matched collar, central silver zip and stitched panels.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same jacket on same model; close view of reference-matched collar, central silver zip and stitched panels. Slow 5cm push in; zipper remains closed at the same height, hands outside crop.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Same model in stable frontal pose, jacket fully visible waist-up; neutral background.",
+        "shot_id": "S04",
+        "camera": "Hold with natural breathing only; no camera movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same model in stable frontal pose, jacket fully visible waist-up; neutral background.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same model in stable frontal pose, jacket fully visible waist-up; neutral background. Hold with natural breathing only; no camera movement.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. White tee and denim before; cut to same pose wearing the exact jacket.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval",
+      "technical decode and exact 1080x1920/30fps/H.264 MP4",
+      "watch full export and all transitions",
+      "check color, collar, zip, hem, panels, stitching and proportions against originals",
+      "no fake material/fit/warmth/delivery claims",
+      "approved Sloane account identity",
+      "commercial/AI disclosure and music rights reviewed",
+      "store launch and profile-link route verified"
+    ],
+    "creative_id": "SL001",
+    "product_id": "gid://shopify/Product/8719390048441",
+    "product_name": "The Sloane Cropped Jacket",
+    "concept": "outfit transformation",
+    "edit_version": 1,
+    "state": "GENERATION_READY",
+    "research": {
+      "method": "Product-led hypotheses using existing Shopify images, adapted Instagram hook structure and reviewed Shotcraft planning; no live trend/outlier evidence claimed.",
+      "evidence": [
+        "creative/PRODUCTION.md",
+        "docs/VIDEO-KIT-AUDIT.md"
+      ],
+      "trend_validation": "not_performed"
+    },
+    "reference_assets": [
+      {
+        "view": "front",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/15f145af453e99a535c903e8391e.png?v=1789701832",
+        "local": "video/public/sloane-front.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "detail",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/2d6e9d1144678f8442cc8e321d0d.png?v=1789701816",
+        "local": "video/public/sloane-detail.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "back",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/c2327c9445a98a288baf53fb0d02.png?v=1789701798",
+        "local": "video/public/sloane-back.png",
+        "source": "Shopify product 8719390048441"
+      }
+    ],
+    "generation_provider": "higgsfield_manual",
+    "generation_mode": "MANUAL_UNLIMITED",
+    "generation_cost": {
+      "estimated_usd": null,
+      "actual_usd": null,
+      "source": null
+    },
+    "generation_date": null,
+    "cta": "Find your fit. Explore Sloane.",
+    "destination_url": "https://4zregc-s0.myshopify.com/products/ladies-chic-gray-tweed-crop-jacket",
+    "utm_campaign": "sloane_q4_test",
+    "utm_content": "sl001",
+    "publish_status": "NOT_APPROVED",
+    "publish_time": null,
+    "platform_post_id": null,
+    "metrics_ref": {
+      "file": "analytics/experiments.json",
+      "keys": {
+        "creative_id": "SL001",
+        "platform": "each platform row"
+      }
+    },
+    "decision": null,
+    "edit": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "audio_intent": "silent",
+      "price": null,
+      "captions": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "The Sloane Cropped Jacket"
+        },
+        {
+          "start": 7,
+          "end": 11,
+          "text": "Gray texture. Cropped silhouette."
+        }
+      ],
+      "instructions": "Render SloaneCreative. Hook visible at frame 0; final CTA begins at 11s. Text is editorial overlay, not speech transcription. If voiceover is later recorded, align captions to actual audio and add a reviewed audio path before rendering. No price in initial creatives."
+    }
+  },
+  {
+    "id": "SL002",
+    "status": "draft",
+    "angle": "three outfits",
+    "hook": "One gray jacket. Three different plans.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether three outfits improves qualified product visits relative to other creatives with the same offer.",
+    "script": "One gray jacket. Three different plans. Denim for coffee. Trousers for your weekday. A simple skirt for dinner. The Sloane Cropped Jacket pulls each look together. Choose your size online.",
+    "caption": "One gray jacket. Three different plans.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Three locked outfit shots: denim for coffee, trousers for campus, skirt for dinner.",
+        "shot_id": "S01",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 3,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Three locked outfit shots: denim for coffee, trousers for campus, skirt for dinner.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Three locked outfit shots: denim for coffee, trousers for campus, skirt for dinner. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move.",
+        "shot_id": "S02",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Show the full original jacket clearly; one restrained camera move.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Show the full original jacket clearly; one restrained camera move. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "detail",
+        "visual": "Reference-matched collar and zipper detail.",
+        "shot_id": "S03",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Reference-matched collar and zipper detail.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Reference-matched collar and zipper detail. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing.",
+        "shot_id": "S04",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Stable front view; overlay product name and Shop Sloane in editing.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Stable front view; overlay product name and Shop Sloane in editing. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Three locked outfit shots: denim for coffee, trousers for campus, skirt for dinner.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval",
+      "technical decode and exact 1080x1920/30fps/H.264 MP4",
+      "watch full export and all transitions",
+      "check color, collar, zip, hem, panels, stitching and proportions against originals",
+      "no fake material/fit/warmth/delivery claims",
+      "approved Sloane account identity",
+      "commercial/AI disclosure and music rights reviewed",
+      "store launch and profile-link route verified"
+    ],
+    "creative_id": "SL002",
+    "product_id": "gid://shopify/Product/8719390048441",
+    "product_name": "The Sloane Cropped Jacket",
+    "concept": "three outfits",
+    "edit_version": 1,
+    "state": "SHOT_PLANNED",
+    "research": {
+      "method": "Product-led hypotheses using existing Shopify images, adapted Instagram hook structure and reviewed Shotcraft planning; no live trend/outlier evidence claimed.",
+      "evidence": [
+        "creative/PRODUCTION.md",
+        "docs/VIDEO-KIT-AUDIT.md"
+      ],
+      "trend_validation": "not_performed"
+    },
+    "reference_assets": [
+      {
+        "view": "front",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/15f145af453e99a535c903e8391e.png?v=1789701832",
+        "local": "video/public/sloane-front.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "detail",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/2d6e9d1144678f8442cc8e321d0d.png?v=1789701816",
+        "local": "video/public/sloane-detail.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "back",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/c2327c9445a98a288baf53fb0d02.png?v=1789701798",
+        "local": "video/public/sloane-back.png",
+        "source": "Shopify product 8719390048441"
+      }
+    ],
+    "generation_provider": "higgsfield_manual",
+    "generation_mode": "MANUAL_UNLIMITED",
+    "generation_cost": {
+      "estimated_usd": null,
+      "actual_usd": null,
+      "source": null
+    },
+    "generation_date": null,
+    "cta": "Find your fit. Explore Sloane.",
+    "destination_url": "https://4zregc-s0.myshopify.com/products/ladies-chic-gray-tweed-crop-jacket",
+    "utm_campaign": "sloane_q4_test",
+    "utm_content": "sl002",
+    "publish_status": "NOT_APPROVED",
+    "publish_time": null,
+    "platform_post_id": null,
+    "metrics_ref": {
+      "file": "analytics/experiments.json",
+      "keys": {
+        "creative_id": "SL002",
+        "platform": "each platform row"
+      }
+    },
+    "decision": null,
+    "edit": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "audio_intent": "silent",
+      "price": null,
+      "captions": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "The Sloane Cropped Jacket"
+        },
+        {
+          "start": 7,
+          "end": 11,
+          "text": "Gray texture. Cropped silhouette."
+        }
+      ],
+      "instructions": "Render SloaneCreative. Hook visible at frame 0; final CTA begins at 11s. Text is editorial overlay, not speech transcription. If voiceover is later recorded, align captions to actual audio and add a reviewed audio path before rendering. No price in initial creatives."
+    }
+  },
+  {
+    "id": "SL003",
+    "status": "draft",
+    "angle": "detail study",
+    "hook": "Look closer at the Sloane collar.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether detail study improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Look closer at the Sloane collar. The gray texture and silver zip keep simple outfits interesting. A cropped shape pairs with high-waisted denim. See the details and sizing before you choose.",
+    "caption": "Look closer at the Sloane collar.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Actual front product reference composed on warm off-white background, jacket centered with original hem and sleeves.",
+        "shot_id": "S01",
+        "camera": "Very slow straight push in; preserve original garment contours, no fabric inflation.",
+        "generation_seconds": 5,
+        "usable_seconds": 3,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual front product reference composed on warm off-white background, jacket centered with original hem and sleeves.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual front product reference composed on warm off-white background, jacket centered with original hem and sleeves. Very slow straight push in; preserve original garment contours, no fabric inflation.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Actual detail reference, structured collar and silver zipper in clear view, no invented stitches.",
+        "shot_id": "S02",
+        "camera": "Locked close-up with subtle light variation only; no opening or closing zipper.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual detail reference, structured collar and silver zipper in clear view, no invented stitches.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual detail reference, structured collar and silver zipper in clear view, no invented stitches. Locked close-up with subtle light variation only; no opening or closing zipper.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "detail",
+        "visual": "Actual back reference, gray panel construction and cropped proportions fully visible.",
+        "shot_id": "S03",
+        "camera": "Static straight-on view; no simulated 3D rotation from a single photo.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual back reference, gray panel construction and cropped proportions fully visible.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual back reference, gray panel construction and cropped proportions fully visible. Static straight-on view; no simulated 3D rotation from a single photo.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Actual front reference in same warm off-white composition as first shot.",
+        "shot_id": "S04",
+        "camera": "Hold still for final editor-rendered CTA.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual front reference in same warm off-white composition as first shot.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual front reference in same warm off-white composition as first shot. Hold still for final editor-rendered CTA.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Product-only closeups of collar, zip and gray texture, then full front view.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval",
+      "technical decode and exact 1080x1920/30fps/H.264 MP4",
+      "watch full export and all transitions",
+      "check color, collar, zip, hem, panels, stitching and proportions against originals",
+      "no fake material/fit/warmth/delivery claims",
+      "approved Sloane account identity",
+      "commercial/AI disclosure and music rights reviewed",
+      "store launch and profile-link route verified"
+    ],
+    "creative_id": "SL003",
+    "product_id": "gid://shopify/Product/8719390048441",
+    "product_name": "The Sloane Cropped Jacket",
+    "concept": "detail study",
+    "edit_version": 1,
+    "state": "GENERATION_READY",
+    "research": {
+      "method": "Product-led hypotheses using existing Shopify images, adapted Instagram hook structure and reviewed Shotcraft planning; no live trend/outlier evidence claimed.",
+      "evidence": [
+        "creative/PRODUCTION.md",
+        "docs/VIDEO-KIT-AUDIT.md"
+      ],
+      "trend_validation": "not_performed"
+    },
+    "reference_assets": [
+      {
+        "view": "front",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/15f145af453e99a535c903e8391e.png?v=1789701832",
+        "local": "video/public/sloane-front.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "detail",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/2d6e9d1144678f8442cc8e321d0d.png?v=1789701816",
+        "local": "video/public/sloane-detail.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "back",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/c2327c9445a98a288baf53fb0d02.png?v=1789701798",
+        "local": "video/public/sloane-back.png",
+        "source": "Shopify product 8719390048441"
+      }
+    ],
+    "generation_provider": "higgsfield_manual",
+    "generation_mode": "MANUAL_UNLIMITED",
+    "generation_cost": {
+      "estimated_usd": null,
+      "actual_usd": null,
+      "source": null
+    },
+    "generation_date": null,
+    "cta": "Find your fit. Explore Sloane.",
+    "destination_url": "https://4zregc-s0.myshopify.com/products/ladies-chic-gray-tweed-crop-jacket",
+    "utm_campaign": "sloane_q4_test",
+    "utm_content": "sl003",
+    "publish_status": "NOT_APPROVED",
+    "publish_time": null,
+    "platform_post_id": null,
+    "metrics_ref": {
+      "file": "analytics/experiments.json",
+      "keys": {
+        "creative_id": "SL003",
+        "platform": "each platform row"
+      }
+    },
+    "decision": null,
+    "edit": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "audio_intent": "silent",
+      "price": null,
+      "captions": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "The Sloane Cropped Jacket"
+        },
+        {
+          "start": 7,
+          "end": 11,
+          "text": "Gray texture. Cropped silhouette."
+        }
+      ],
+      "instructions": "Render SloaneCreative. Hook visible at frame 0; final CTA begins at 11s. Text is editorial overlay, not speech transcription. If voiceover is later recorded, align captions to actual audio and add a reviewed audio path before rendering. No price in initial creatives."
+    }
+  },
+  {
+    "id": "SL004",
+    "status": "draft",
+    "angle": "coffee run",
+    "hook": "Your coffee-run outfit, pulled together.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether coffee run improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Your coffee-run outfit, pulled together. Start with your everyday tee and denim. Add the Sloane Cropped Jacket. Gray texture. A statement collar. Find your fit and make it your own.",
+    "caption": "Your coffee-run outfit, pulled together.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Adult model wearing the exact reference jacket with cream top and dark straight trousers outside a quiet cafe. Overcast soft daylight.",
+        "shot_id": "S01",
+        "camera": "Medium framing, jacket visible immediately; one slow step, locked camera.",
+        "generation_seconds": 5,
+        "usable_seconds": 3,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Adult model wearing the exact reference jacket with cream top and dark straight trousers outside a quiet cafe. Overcast soft daylight.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Adult model wearing the exact reference jacket with cream top and dark straight trousers outside a quiet cafe. Overcast soft daylight. Medium framing, jacket visible immediately; one slow step, locked camera.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Same model, outfit and cafe window; cropped jacket hem, collar and zip fully visible.",
+        "shot_id": "S02",
+        "camera": "Model stops and turns one quarter toward the window; camera remains locked.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same model, outfit and cafe window; cropped jacket hem, collar and zip fully visible.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same model, outfit and cafe window; cropped jacket hem, collar and zip fully visible. Model stops and turns one quarter toward the window; camera remains locked.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "detail",
+        "visual": "Same model by cafe window; waist-up detail of exact gray texture, collar and zipper.",
+        "shot_id": "S03",
+        "camera": "Gentle lateral slide under 10cm; hands relaxed away from garment.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same model by cafe window; waist-up detail of exact gray texture, collar and zipper.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same model by cafe window; waist-up detail of exact gray texture, collar and zipper. Gentle lateral slide under 10cm; hands relaxed away from garment.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Same model and outfit in a stable front view by cafe, calm neutral expression.",
+        "shot_id": "S04",
+        "camera": "Static hold; no sipping, hand-object interaction or garment changes.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same model and outfit in a stable front view by cafe, calm neutral expression.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Same model and outfit in a stable front view by cafe, calm neutral expression. Static hold; no sipping, hand-object interaction or garment changes.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Natural daylight doorway, same adult model with jeans and actual gray jacket, quiet walking shot.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval",
+      "technical decode and exact 1080x1920/30fps/H.264 MP4",
+      "watch full export and all transitions",
+      "check color, collar, zip, hem, panels, stitching and proportions against originals",
+      "no fake material/fit/warmth/delivery claims",
+      "approved Sloane account identity",
+      "commercial/AI disclosure and music rights reviewed",
+      "store launch and profile-link route verified"
+    ],
+    "creative_id": "SL004",
+    "product_id": "gid://shopify/Product/8719390048441",
+    "product_name": "The Sloane Cropped Jacket",
+    "concept": "coffee run",
+    "edit_version": 1,
+    "state": "GENERATION_READY",
+    "research": {
+      "method": "Product-led hypotheses using existing Shopify images, adapted Instagram hook structure and reviewed Shotcraft planning; no live trend/outlier evidence claimed.",
+      "evidence": [
+        "creative/PRODUCTION.md",
+        "docs/VIDEO-KIT-AUDIT.md"
+      ],
+      "trend_validation": "not_performed"
+    },
+    "reference_assets": [
+      {
+        "view": "front",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/15f145af453e99a535c903e8391e.png?v=1789701832",
+        "local": "video/public/sloane-front.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "detail",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/2d6e9d1144678f8442cc8e321d0d.png?v=1789701816",
+        "local": "video/public/sloane-detail.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "back",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/c2327c9445a98a288baf53fb0d02.png?v=1789701798",
+        "local": "video/public/sloane-back.png",
+        "source": "Shopify product 8719390048441"
+      }
+    ],
+    "generation_provider": "higgsfield_manual",
+    "generation_mode": "MANUAL_UNLIMITED",
+    "generation_cost": {
+      "estimated_usd": null,
+      "actual_usd": null,
+      "source": null
+    },
+    "generation_date": null,
+    "cta": "Find your fit. Explore Sloane.",
+    "destination_url": "https://4zregc-s0.myshopify.com/products/ladies-chic-gray-tweed-crop-jacket",
+    "utm_campaign": "sloane_q4_test",
+    "utm_content": "sl004",
+    "publish_status": "NOT_APPROVED",
+    "publish_time": null,
+    "platform_post_id": null,
+    "metrics_ref": {
+      "file": "analytics/experiments.json",
+      "keys": {
+        "creative_id": "SL004",
+        "platform": "each platform row"
+      }
+    },
+    "decision": null,
+    "edit": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "audio_intent": "silent",
+      "price": null,
+      "captions": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "The Sloane Cropped Jacket"
+        },
+        {
+          "start": 7,
+          "end": 11,
+          "text": "Gray texture. Cropped silhouette."
+        }
+      ],
+      "instructions": "Render SloaneCreative. Hook visible at frame 0; final CTA begins at 11s. Text is editorial overlay, not speech transcription. If voiceover is later recorded, align captions to actual audio and add a reviewed audio path before rendering. No price in initial creatives."
+    }
+  },
+  {
+    "id": "SL005",
+    "status": "draft",
+    "angle": "evening plan",
+    "hook": "Keep the outfit simple. Add Sloane.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether evening plan improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Keep the outfit simple. Add Sloane. A gray cropped layer over your evening basics. Let the collar and silver zip bring the detail. Explore The Sloane Cropped Jacket online.",
+    "caption": "Keep the outfit simple. Add Sloane.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Waist-up jacket reveal over a simple black outfit; collar detail; stationary full outfit.",
+        "shot_id": "S01",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 3,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Waist-up jacket reveal over a simple black outfit; collar detail; stationary full outfit.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Waist-up jacket reveal over a simple black outfit; collar detail; stationary full outfit. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move.",
+        "shot_id": "S02",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Show the full original jacket clearly; one restrained camera move.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Show the full original jacket clearly; one restrained camera move. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "detail",
+        "visual": "Reference-matched collar and zipper detail.",
+        "shot_id": "S03",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Reference-matched collar and zipper detail.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Reference-matched collar and zipper detail. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing.",
+        "shot_id": "S04",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Stable front view; overlay product name and Shop Sloane in editing.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Stable front view; overlay product name and Shop Sloane in editing. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Waist-up jacket reveal over a simple black outfit; collar detail; stationary full outfit.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval",
+      "technical decode and exact 1080x1920/30fps/H.264 MP4",
+      "watch full export and all transitions",
+      "check color, collar, zip, hem, panels, stitching and proportions against originals",
+      "no fake material/fit/warmth/delivery claims",
+      "approved Sloane account identity",
+      "commercial/AI disclosure and music rights reviewed",
+      "store launch and profile-link route verified"
+    ],
+    "creative_id": "SL005",
+    "product_id": "gid://shopify/Product/8719390048441",
+    "product_name": "The Sloane Cropped Jacket",
+    "concept": "evening plan",
+    "edit_version": 1,
+    "state": "SHOT_PLANNED",
+    "research": {
+      "method": "Product-led hypotheses using existing Shopify images, adapted Instagram hook structure and reviewed Shotcraft planning; no live trend/outlier evidence claimed.",
+      "evidence": [
+        "creative/PRODUCTION.md",
+        "docs/VIDEO-KIT-AUDIT.md"
+      ],
+      "trend_validation": "not_performed"
+    },
+    "reference_assets": [
+      {
+        "view": "front",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/15f145af453e99a535c903e8391e.png?v=1789701832",
+        "local": "video/public/sloane-front.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "detail",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/2d6e9d1144678f8442cc8e321d0d.png?v=1789701816",
+        "local": "video/public/sloane-detail.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "back",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/c2327c9445a98a288baf53fb0d02.png?v=1789701798",
+        "local": "video/public/sloane-back.png",
+        "source": "Shopify product 8719390048441"
+      }
+    ],
+    "generation_provider": "higgsfield_manual",
+    "generation_mode": "MANUAL_UNLIMITED",
+    "generation_cost": {
+      "estimated_usd": null,
+      "actual_usd": null,
+      "source": null
+    },
+    "generation_date": null,
+    "cta": "Find your fit. Explore Sloane.",
+    "destination_url": "https://4zregc-s0.myshopify.com/products/ladies-chic-gray-tweed-crop-jacket",
+    "utm_campaign": "sloane_q4_test",
+    "utm_content": "sl005",
+    "publish_status": "NOT_APPROVED",
+    "publish_time": null,
+    "platform_post_id": null,
+    "metrics_ref": {
+      "file": "analytics/experiments.json",
+      "keys": {
+        "creative_id": "SL005",
+        "platform": "each platform row"
+      }
+    },
+    "decision": null,
+    "edit": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "audio_intent": "silent",
+      "price": null,
+      "captions": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "The Sloane Cropped Jacket"
+        },
+        {
+          "start": 7,
+          "end": 11,
+          "text": "Gray texture. Cropped silhouette."
+        }
+      ],
+      "instructions": "Render SloaneCreative. Hook visible at frame 0; final CTA begins at 11s. Text is editorial overlay, not speech transcription. If voiceover is later recorded, align captions to actual audio and add a reviewed audio path before rendering. No price in initial creatives."
+    }
+  },
+  {
+    "id": "SL006",
+    "status": "draft",
+    "angle": "fit education",
+    "hook": "Check the Sloane sizing before you choose.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether fit education improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Check the Sloane sizing before you choose. This style follows Asian sizing and can run smaller than typical U.S. sizes. Read the fit notes and contact us for measurements before ordering.",
+    "caption": "Check the Sloane sizing before you choose.\n\nRead the sizing notes before ordering.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Actual front and back flatlays; legible edited size text; link to size guidance.",
+        "shot_id": "S01",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 3,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual front and back flatlays; legible edited size text; link to size guidance.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Actual front and back flatlays; legible edited size text; link to size guidance. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move.",
+        "shot_id": "S02",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Show the full original jacket clearly; one restrained camera move.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Show the full original jacket clearly; one restrained camera move. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "detail",
+        "visual": "Reference-matched collar and zipper detail.",
+        "shot_id": "S03",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Reference-matched collar and zipper detail.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Reference-matched collar and zipper detail. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing.",
+        "shot_id": "S04",
+        "camera": "Locked camera, one restrained subject movement.",
+        "generation_seconds": 5,
+        "usable_seconds": 4,
+        "still_prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Stable front view; overlay product name and Shop Sloane in editing.",
+        "prompt": "Use the supplied real Shopify front, back and detail product images as garment identity references. Preserve gray tone, cropped hem, collar geometry, central silver zipper, polyester wool-look texture, panels, stitching, sleeves and proportions. No invented pockets, logos, writing, changed fasteners, longer hem, morphing, extra limbs or plastic fabric. Realistic adult anatomy and garment gravity. Vertical 9:16, soft neutral light. No generated text, no audio. Keep important product details inside central framing. Stable front view; overlay product name and Shop Sloane in editing. Locked camera, minimal motion.",
+        "continuity": "Lock adult identity, clothing, light, zipper state and location between connected shots. Approve a still before image-to-video. Text instructions cannot guarantee identity."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Actual front and back flatlays; legible edited size text; link to size guidance.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval",
+      "technical decode and exact 1080x1920/30fps/H.264 MP4",
+      "watch full export and all transitions",
+      "check color, collar, zip, hem, panels, stitching and proportions against originals",
+      "no fake material/fit/warmth/delivery claims",
+      "approved Sloane account identity",
+      "commercial/AI disclosure and music rights reviewed",
+      "store launch and profile-link route verified"
+    ],
+    "creative_id": "SL006",
+    "product_id": "gid://shopify/Product/8719390048441",
+    "product_name": "The Sloane Cropped Jacket",
+    "concept": "fit education",
+    "edit_version": 1,
+    "state": "SHOT_PLANNED",
+    "research": {
+      "method": "Product-led hypotheses using existing Shopify images, adapted Instagram hook structure and reviewed Shotcraft planning; no live trend/outlier evidence claimed.",
+      "evidence": [
+        "creative/PRODUCTION.md",
+        "docs/VIDEO-KIT-AUDIT.md"
+      ],
+      "trend_validation": "not_performed"
+    },
+    "reference_assets": [
+      {
+        "view": "front",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/15f145af453e99a535c903e8391e.png?v=1789701832",
+        "local": "video/public/sloane-front.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "detail",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/2d6e9d1144678f8442cc8e321d0d.png?v=1789701816",
+        "local": "video/public/sloane-detail.png",
+        "source": "Shopify product 8719390048441"
+      },
+      {
+        "view": "back",
+        "url": "https://cdn.shopify.com/s/files/1/0814/9640/8249/files/c2327c9445a98a288baf53fb0d02.png?v=1789701798",
+        "local": "video/public/sloane-back.png",
+        "source": "Shopify product 8719390048441"
+      }
+    ],
+    "generation_provider": "higgsfield_manual",
+    "generation_mode": "MANUAL_UNLIMITED",
+    "generation_cost": {
+      "estimated_usd": null,
+      "actual_usd": null,
+      "source": null
+    },
+    "generation_date": null,
+    "cta": "Find your fit. Explore Sloane.",
+    "destination_url": "https://4zregc-s0.myshopify.com/products/ladies-chic-gray-tweed-crop-jacket",
+    "utm_campaign": "sloane_q4_test",
+    "utm_content": "sl006",
+    "publish_status": "NOT_APPROVED",
+    "publish_time": null,
+    "platform_post_id": null,
+    "metrics_ref": {
+      "file": "analytics/experiments.json",
+      "keys": {
+        "creative_id": "SL006",
+        "platform": "each platform row"
+      }
+    },
+    "decision": null,
+    "edit": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "audio_intent": "silent",
+      "price": null,
+      "captions": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "The Sloane Cropped Jacket"
+        },
+        {
+          "start": 7,
+          "end": 11,
+          "text": "Gray texture. Cropped silhouette."
+        }
+      ],
+      "instructions": "Render SloaneCreative. Hook visible at frame 0; final CTA begins at 11s. Text is editorial overlay, not speech transcription. If voiceover is later recorded, align captions to actual audio and add a reviewed audio path before rendering. No price in initial creatives."
+    }
+  }
+]

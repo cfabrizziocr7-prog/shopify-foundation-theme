@@ -115,7 +115,7 @@
                 </div>
               </div>
 
-              {% unless order.discount_applications | size == 0 %}
+              {% unless order.discount_applications.size == 0 %}
                 <div class="border-b py-4 md:pr-8">
                   {% for discount_application in order.discount_applications %}
                     {{ discount_application.title }} {{ 'common.discount' | t }} | {{ discount_application.total_allocated_amount | money }}
@@ -123,7 +123,7 @@
                 </div>
               {% endunless %}
 
-              {% unless order.shipping_methods | size == 0 %}
+              {% unless order.shipping_methods.size == 0 %}
                 <div class="border-b py-4 md:pr-8">
                   {% for shipping_method in order.shipping_methods %}
                     <div>
@@ -133,7 +133,7 @@
                 </div>
               {% endunless %}
 
-              {% unless order.tax_lines | size == 0 %}
+              {% unless order.tax_lines.size == 0 %}
                 <div class="border-b py-4 md:pr-8">
                   {% for tax_line in order.tax_lines %}
                     <div>

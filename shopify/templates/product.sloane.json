@@ -1,40 +1,11 @@
 {
   "sections": {
-    "hero": {
-      "type": "sloane-home",
+    "main": {
+      "type": "sloane-product",
       "settings": {
-        "product": "ladies-chic-gray-tweed-crop-jacket",
-        "hero_image": "shopify://shop_images/15f145af453e99a535c903e8391e.png",
-        "detail_image": "shopify://shop_images/2d6e9d1144678f8442cc8e321d0d.png"
-      },
-      "blocks": {
-        "coffee": {
-          "type": "outfit",
-          "settings": {
-            "heading": "The coffee run",
-            "text": "Straight-leg denim, a white tee, and the jacket zipped halfway. Easy, even before your first coffee."
-          }
-        },
-        "office": {
-          "type": "outfit",
-          "settings": {
-            "heading": "The weekday reset",
-            "text": "High-waisted trousers and a fine knit. A little structure for a day with somewhere to be."
-          }
-        },
-        "evening": {
-          "type": "outfit",
-          "settings": {
-            "heading": "The evening plan",
-            "text": "A simple skirt, ankle boots, and a small bag. Let the collar and texture do the talking."
-          }
-        }
-      },
-      "block_order": [
-        "coffee",
-        "office",
-        "evening"
-      ]
+        "primary_image": "shopify://shop_images/15f145af453e99a535c903e8391e.png",
+        "eyebrow": "The fall / winter edit"
+      }
     },
     "faq": {
       "type": "sloane-faq",
@@ -70,7 +41,7 @@
     }
   },
   "order": [
-    "hero",
+    "main",
     "faq"
   ]
 }
