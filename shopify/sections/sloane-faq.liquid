@@ -1,0 +1,15 @@
+{% render 'sloane-styles' %}
+<section class="sl-faq sl-wrap" id="sloane-faq">
+  <div><p class="sl-kicker">{{ 'sloane.faq.kicker' | t }}</p><h2>{{ section.settings.heading | escape }}</h2><p class="sl-muted">{{ 'sloane.faq.help' | t }}</p><a class="sl-link" href="{{ routes.root_url }}pages/contact">{{ 'sloane.nav.contact' | t }} ↗</a></div>
+  <div>
+    {% for block in section.blocks %}<details {{ block.shopify_attributes }}><summary>{{ block.settings.question | escape }}</summary><div class="sl-answer sl-richtext">{{ block.settings.answer }}</div></details>{% endfor %}
+    <details id="sloane-shipping"><summary>{{ 'sloane.faq.shipping' | t }}</summary><div class="sl-answer sl-richtext">{% if shop.shipping_policy.body != blank %}{{ shop.shipping_policy.body }}<a href="{{ shop.shipping_policy.url }}">{{ 'sloane.faq.policy' | t }}</a>{% else %}{{ section.settings.shipping_text }}{% endif %}</div></details>
+    <details><summary>{{ 'sloane.faq.returns' | t }}</summary><div class="sl-answer sl-richtext">{% if shop.refund_policy.body != blank %}{{ shop.refund_policy.body }}<a href="{{ shop.refund_policy.url }}">{{ 'sloane.faq.policy' | t }}</a>{% else %}<p>{{ 'sloane.faq.returns_fallback' | t }}</p><a href="{{ routes.root_url }}pages/contact">{{ 'sloane.nav.contact' | t }}</a>{% endif %}</div></details>
+  </div>
+</section>
+{% stylesheet %}
+  .sl-faq{display:grid;grid-template-columns:1fr 1.35fr;gap:9vw;padding-block:65px 85px;border-top:1px solid var(--sl-line)}.sl-faq h2{max-width:330px;margin-bottom:25px}.sl-faq>.sl-muted{font-size:14px}.sl-faq details:last-child{border-bottom:1px solid var(--sl-line)}@media(max-width:749px){.sl-faq{grid-template-columns:1fr;gap:30px;padding-block:45px 55px}}
+{% endstylesheet %}
+{% schema %}
+{"name":"Sloane FAQ","settings":[{"type":"text","id":"heading","label":"Heading","default":"A few things to know."},{"type":"richtext","id":"shipping_text","label":"Shipping fallback","default":"<p>The product listing estimates U.S. delivery around 8 days after processing. This is an estimate, not a guaranteed arrival date. Shipping charges and available destinations are shown at checkout.</p>"}],"blocks":[{"type":"question","name":"Question","settings":[{"type":"text","id":"question","label":"Question"},{"type":"richtext","id":"answer","label":"Answer"}]}],"presets":[{"name":"Sloane FAQ"}]}
+{% endschema %}

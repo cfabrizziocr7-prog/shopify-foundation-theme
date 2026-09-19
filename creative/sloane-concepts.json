@@ -1,0 +1,302 @@
+[
+  {
+    "id": "SL001",
+    "status": "draft",
+    "angle": "outfit transformation",
+    "hook": "Your jeans need one finishing layer.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether outfit transformation improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Your jeans need one finishing layer. Add the Sloane Cropped Jacket. Gray texture, a silver zip, and a cropped cut. Keep the rest simple. Find your fit on the product page.",
+    "caption": "Your jeans need one finishing layer.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "White tee and denim before; cut to same pose wearing the exact jacket."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "proof",
+        "visual": "Reference-matched collar and zipper detail."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. White tee and denim before; cut to same pose wearing the exact jacket.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval"
+    ]
+  },
+  {
+    "id": "SL002",
+    "status": "draft",
+    "angle": "three outfits",
+    "hook": "One gray jacket. Three different plans.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether three outfits improves qualified product visits relative to other creatives with the same offer.",
+    "script": "One gray jacket. Three different plans. Denim for coffee. Trousers for your weekday. A simple skirt for dinner. The Sloane Cropped Jacket pulls each look together. Choose your size online.",
+    "caption": "One gray jacket. Three different plans.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Three locked outfit shots: denim for coffee, trousers for campus, skirt for dinner."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "proof",
+        "visual": "Reference-matched collar and zipper detail."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Three locked outfit shots: denim for coffee, trousers for campus, skirt for dinner.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval"
+    ]
+  },
+  {
+    "id": "SL003",
+    "status": "draft",
+    "angle": "detail study",
+    "hook": "Look closer at the Sloane collar.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether detail study improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Look closer at the Sloane collar. The gray texture and silver zip keep simple outfits interesting. A cropped shape pairs with high-waisted denim. See the details and sizing before you choose.",
+    "caption": "Look closer at the Sloane collar.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Product-only closeups of collar, zip and gray texture, then full front view."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "proof",
+        "visual": "Reference-matched collar and zipper detail."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Product-only closeups of collar, zip and gray texture, then full front view.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval"
+    ]
+  },
+  {
+    "id": "SL004",
+    "status": "draft",
+    "angle": "coffee run",
+    "hook": "Your coffee-run outfit, pulled together.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether coffee run improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Your coffee-run outfit, pulled together. Start with your everyday tee and denim. Add the Sloane Cropped Jacket. Gray texture. A statement collar. Find your fit and make it your own.",
+    "caption": "Your coffee-run outfit, pulled together.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Natural daylight doorway, same adult model with jeans and actual gray jacket, quiet walking shot."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "proof",
+        "visual": "Reference-matched collar and zipper detail."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Natural daylight doorway, same adult model with jeans and actual gray jacket, quiet walking shot.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval"
+    ]
+  },
+  {
+    "id": "SL005",
+    "status": "draft",
+    "angle": "evening plan",
+    "hook": "Keep the outfit simple. Add Sloane.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether evening plan improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Keep the outfit simple. Add Sloane. A gray cropped layer over your evening basics. Let the collar and silver zip bring the detail. Explore The Sloane Cropped Jacket online.",
+    "caption": "Keep the outfit simple. Add Sloane.\n\nThe Sloane Cropped Jacket: gray texture, a cropped cut, and a silver zip.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Waist-up jacket reveal over a simple black outfit; collar detail; stationary full outfit."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "proof",
+        "visual": "Reference-matched collar and zipper detail."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Waist-up jacket reveal over a simple black outfit; collar detail; stationary full outfit.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval"
+    ]
+  },
+  {
+    "id": "SL006",
+    "status": "draft",
+    "angle": "fit education",
+    "hook": "Check the Sloane sizing before you choose.",
+    "format": "9:16",
+    "duration_seconds": 15,
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "hypothesis": "Test whether fit education improves qualified product visits relative to other creatives with the same offer.",
+    "script": "Check the Sloane sizing before you choose. This style follows Asian sizing and can run smaller than typical U.S. sizes. Read the fit notes and contact us for measurements before ordering.",
+    "caption": "Check the Sloane sizing before you choose.\n\nRead the sizing notes before ordering.\nExplore Sloane through the profile link.\n\n#CroppedJacket #FallOutfit #GrayJacket",
+    "shots": [
+      {
+        "start": 0,
+        "end": 3,
+        "purpose": "hook",
+        "visual": "Actual front and back flatlays; legible edited size text; link to size guidance."
+      },
+      {
+        "start": 3,
+        "end": 7,
+        "purpose": "reveal",
+        "visual": "Show the full original jacket clearly; one restrained camera move."
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "purpose": "proof",
+        "visual": "Reference-matched collar and zipper detail."
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "purpose": "CTA",
+        "visual": "Stable front view; overlay product name and Shop Sloane in editing."
+      }
+    ],
+    "higgsfield_prompt": "Use the supplied original product reference images. Preserve exact gray color, wool-look polyester texture, collar geometry, silver center zipper, cropped proportions, stitched panels and sleeve silhouette. No logos, embellishments, generated writing, changed closures or altered garment length. Natural garment physics; no morphing. Adult model where relevant. Do not imply personal customer experience. Vertical 9:16; jacket remains fully recognizable. Clean footage without text or music; add accurate text during editing. Actual front and back flatlays; legible edited size text; link to size guidance.",
+    "qa": [
+      "reference fidelity",
+      "no unverified claim",
+      "legible overlays",
+      "destination works",
+      "audio rights or silent",
+      "publishing approval"
+    ]
+  }
+]

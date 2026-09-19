@@ -1,10 +1,18 @@
 {
   "sections": {
     "main": {
-      "type": "main-product"
+      "type": "sloane-product",
+      "settings": {}
+    },
+    "faq": {
+      "type": "sloane-faq",
+      "settings": {},
+      "blocks": {},
+      "block_order": []
     }
   },
   "order": [
-    "main"
+    "main",
+    "faq"
   ]
 }

@@ -1,3 +1,18 @@
 {
-  "current": {}
+  "current": {
+    "sections": {
+      "sloane-header": {
+        "type": "sloane-header",
+        "settings": {
+          "product": "ladies-chic-gray-tweed-crop-jacket",
+          "wordmark": "SLOANE EDIT",
+          "announcement": "The fall edit · One layer. Endless possibilities."
+        }
+      },
+      "sloane-footer": {
+        "type": "sloane-footer",
+        "settings": {}
+      }
+    }
+  }
 }

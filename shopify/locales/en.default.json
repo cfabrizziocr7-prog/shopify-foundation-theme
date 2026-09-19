@@ -1,4 +1,8 @@
 {
+  "404": {
+    "title": "404 Page Not Found",
+    "text": "The page you requested does not exist."
+  },
   "date_formats": {
     "month_day_year": "%b %d, %Y"
   },
@@ -151,14 +155,70 @@
     "coming_soon": "Coming soon",
     "store_owner": "Are you the store owner?"
   },
-  "404": {
-    "title": "404 Page Not Found",
-    "text": "The page you requested does not exist."
-  },
   "footer": {
     "menu": "Quick links",
     "social": "Social",
     "settings": "Settings",
     "payment_methods": "Payment methods"
+  },
+  "sloane": {
+    "nav": {
+      "skip": "Skip to content",
+      "label": "Main navigation",
+      "jacket": "The jacket",
+      "fit": "Fit & sizing",
+      "bag": "Bag",
+      "footer": "Customer care",
+      "shop": "Shop the edit",
+      "contact": "Contact us",
+      "secure": "Secure checkout with Shopify",
+      "home": "Home"
+    },
+    "home": {
+      "caption": "The Sloane Cropped Jacket / Gray",
+      "shop": "Shop the Sloane Jacket",
+      "color": "Gray · XS–L",
+      "texture": "Textured wool-look finish",
+      "shape": "Cropped silhouette",
+      "collar": "Statement collar",
+      "details_kicker": "Considered from every angle",
+      "explore": "Explore the details",
+      "style_kicker": "One jacket, three plans",
+      "style_heading": "Make it your own.",
+      "find_fit": "Find your fit"
+    },
+    "product": {
+      "breadcrumb": "Breadcrumb",
+      "gallery": "Product gallery",
+      "photo": "View product photo {{ number }}",
+      "gallery_hint": "Select a photo for a closer look.",
+      "choose": "Choose your size / variant",
+      "size_guide": "Fit & sizing",
+      "sold_out": "Sold out",
+      "quantity": "Quantity",
+      "add": "Add to cart",
+      "secure": "Secure payment · Shopify checkout",
+      "delivery_details": "Shipping & returns information",
+      "description": "Product details",
+      "fit": "Fit & sizing",
+      "generic_fit": "Review the product details for sizing and measurements. Contact us if you need help choosing."
+    },
+    "faq": {
+      "kicker": "Good to know",
+      "help": "A little clarity before you choose.",
+      "shipping": "Shipping & delivery",
+      "returns": "Returns & exchanges",
+      "policy": "Read the full policy",
+      "returns_fallback": "Please contact us to confirm return eligibility, timing, and any return shipping costs before placing your order."
+    },
+    "cart": {
+      "title": "Your bag.",
+      "remove": "Remove",
+      "subtotal": "Subtotal",
+      "checkout_note": "Shipping, taxes, and applicable discounts are calculated at checkout.",
+      "update": "Update bag",
+      "checkout": "Checkout",
+      "empty": "Your bag is waiting for its first piece."
+    }
   }
 }

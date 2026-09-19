@@ -1,0 +1,15 @@
+{% render 'sloane-styles' %}
+{% assign jacket = section.settings.product %}
+<a class="sl-skip" href="#main">{{ 'sloane.nav.skip' | t }}</a>
+<div class="sl-announcement">{{ section.settings.announcement | escape }}</div>
+<header class="sl-header">
+  <a class="sl-wordmark" href="{{ routes.root_url }}">{{ section.settings.wordmark | escape }}</a>
+  <nav class="sl-nav" aria-label="{{ 'sloane.nav.label' | t }}">
+    {% if jacket != blank %}<a href="{{ jacket.url }}">{{ 'sloane.nav.jacket' | t }}</a><a class="sl-desktop" href="{{ jacket.url }}#sloane-fit">{{ 'sloane.nav.fit' | t }}</a>{% endif %}
+    <a href="{{ routes.cart_url }}">{{ 'sloane.nav.bag' | t }} <span class="sl-bag-count">{{ cart.item_count }}</span></a>
+  </nav>
+</header>
+
+{% schema %}
+{"name":"Sloane header","settings":[{"type":"text","id":"wordmark","label":"Wordmark","default":"SLOANE EDIT"},{"type":"text","id":"announcement","label":"Announcement","default":"The fall edit · One layer. Endless possibilities."},{"type":"product","id":"product","label":"Featured jacket"}]}
+{% endschema %}

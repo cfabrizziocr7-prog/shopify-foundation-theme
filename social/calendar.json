@@ -1,0 +1,68 @@
+[
+  {
+    "slot": 1,
+    "creative_id": "SL001",
+    "date": null,
+    "time": null,
+    "timezone": "America/Los_Angeles",
+    "destination": null,
+    "status": "local_draft",
+    "media": null,
+    "publish_approved": false
+  },
+  {
+    "slot": 2,
+    "creative_id": "SL002",
+    "date": null,
+    "time": null,
+    "timezone": "America/Los_Angeles",
+    "destination": null,
+    "status": "local_draft",
+    "media": null,
+    "publish_approved": false
+  },
+  {
+    "slot": 3,
+    "creative_id": "SL003",
+    "date": null,
+    "time": null,
+    "timezone": "America/Los_Angeles",
+    "destination": null,
+    "status": "local_draft",
+    "media": null,
+    "publish_approved": false
+  },
+  {
+    "slot": 4,
+    "creative_id": "SL004",
+    "date": null,
+    "time": null,
+    "timezone": "America/Los_Angeles",
+    "destination": null,
+    "status": "local_draft",
+    "media": null,
+    "publish_approved": false
+  },
+  {
+    "slot": 5,
+    "creative_id": "SL005",
+    "date": null,
+    "time": null,
+    "timezone": "America/Los_Angeles",
+    "destination": null,
+    "status": "local_draft",
+    "media": null,
+    "publish_approved": false
+  },
+  {
+    "slot": 6,
+    "creative_id": "SL006",
+    "date": null,
+    "time": null,
+    "timezone": "America/Los_Angeles",
+    "destination": null,
+    "status": "local_draft",
+    "media": null,
+    "publish_approved": false
+  }
+]

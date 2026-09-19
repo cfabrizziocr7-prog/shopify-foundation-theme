@@ -1,0 +1,176 @@
+[
+  {
+    "hook": "Your jeans need one finishing layer.",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "6 words, 36 chars, ~2.2s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 15.0,
+        "detail": "0 concrete marker(s) - no number, no name, nothing checkable"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 30.0,
+        "detail": "no payload word anywhere in the line"
+      },
+      "ADDRESS": {
+        "score": 100.0,
+        "detail": "speaks to the viewer"
+      }
+    },
+    "weakest": "SPECIFICITY",
+    "flags": [],
+    "score": 37.8,
+    "verdict": "WEAK"
+  },
+  {
+    "hook": "One gray jacket. Three different plans.",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "6 words, 39 chars, ~2.2s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 100.0,
+        "detail": "2 concrete marker(s): Three, three"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 100.0,
+        "detail": "payload at word 4"
+      },
+      "ADDRESS": {
+        "score": 35.0,
+        "detail": "third person, nobody in the room"
+      }
+    },
+    "weakest": "STAKES",
+    "flags": [],
+    "score": 50.6,
+    "verdict": "OK"
+  },
+  {
+    "hook": "Look closer at the Sloane collar.",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "6 words, 33 chars, ~2.2s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 75,
+        "detail": "1 concrete marker(s): Sloane"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 0.0,
+        "detail": "no payload word anywhere in the line; weak opener \"look\""
+      },
+      "ADDRESS": {
+        "score": 35.0,
+        "detail": "third person, nobody in the room"
+      }
+    },
+    "weakest": "FRONTLOAD",
+    "flags": [],
+    "score": 27.6,
+    "verdict": "WEAK"
+  },
+  {
+    "hook": "Your coffee-run outfit, pulled together.",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "5 words, 40 chars, ~1.8s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 15.0,
+        "detail": "0 concrete marker(s) - no number, no name, nothing checkable"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 30.0,
+        "detail": "no payload word anywhere in the line"
+      },
+      "ADDRESS": {
+        "score": 100.0,
+        "detail": "speaks to the viewer"
+      }
+    },
+    "weakest": "SPECIFICITY",
+    "flags": [],
+    "score": 37.8,
+    "verdict": "WEAK"
+  },
+  {
+    "hook": "Keep the outfit simple. Add Sloane.",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "6 words, 35 chars, ~2.2s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 100.0,
+        "detail": "2 concrete marker(s): Add, Sloane"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 30.0,
+        "detail": "no payload word anywhere in the line"
+      },
+      "ADDRESS": {
+        "score": 35.0,
+        "detail": "third person, nobody in the room"
+      }
+    },
+    "weakest": "STAKES",
+    "flags": [],
+    "score": 42.2,
+    "verdict": "WEAK"
+  },
+  {
+    "hook": "Check the Sloane sizing before you choose.",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "7 words, 42 chars, ~2.5s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 75,
+        "detail": "1 concrete marker(s): Sloane"
+      },
+      "STAKES": {
+        "score": 70.0,
+        "detail": "1 tension marker(s): before"
+      },
+      "FRONTLOAD": {
+        "score": 70.0,
+        "detail": "payload at word 5, could move forward"
+      },
+      "ADDRESS": {
+        "score": 100.0,
+        "detail": "speaks to the viewer"
+      }
+    },
+    "weakest": "STAKES",
+    "flags": [],
+    "score": 77.8,
+    "verdict": "STRONG"
+  }
+]
