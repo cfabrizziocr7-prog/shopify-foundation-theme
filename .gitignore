@@ -17,3 +17,10 @@ video/node_modules/
 .local-build/
 __pycache__/
 video/public/*.png
+video/public/ingested/
+generation/jobs/
+generation/outputs/
+automation/private/
+social/private/
+*.sqlite
+*.sqlite-*

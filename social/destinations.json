@@ -1,0 +1,8 @@
+{
+  "checked_at": null,
+  "blocked": [],
+  "approved": [],
+  "publishing_enabled": false,
+  "requires_private_policy": true,
+  "reason": "No destination allowed without verified local policy. Store connection identities in ignored social/private/destinations.json. Current wrong-account denylist is private."
+}
